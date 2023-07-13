@@ -1,0 +1,51 @@
+/* INICIO HEADER */
+header {
+    position: sticky;
+    width: 100%;;
+    z-index: 1;/* Fijamos esta barra para que aparezca siempre que hacemos scroll */
+    top: 0;
+    padding-top: .5rem;
+    /* Generamos un margen interno para que el logo no tope arriba */
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.contenedor-image {
+    display: flex;
+    justify-content: center;
+    /* Centramos el logo en la barra */
+}
+.barra-nav{
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* Ubicamos con el mismo espacio  alrededor para hacerlo responsivo */
+}
+#menu {
+    position: relative;
+    left: 20px;
+    bottom: 60px;
+
+     /* Ubicamos por sobre el contenedor para nivelarlo en la barra sin afectar a los botones en el centro */
+}
+.botones {
+    /* Diseño visual de botones */
+    
+    background-color:rgba(0, 0, 0, 0.509);
+    border: #D9902C;
+    border-radius: 1rem;
+    border-style: groove;
+    padding: 0 3vh;
+    text-align: center;
+    height:30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 'Bangers', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    /* Diseño visual de botones */
+}
+a:hover {
+    color: #D9902C;
+    /* Cambio de color para cursor */
+}
+/* FIN DEL HEADER */
